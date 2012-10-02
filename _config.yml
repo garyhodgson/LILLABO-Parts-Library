@@ -1,0 +1,31 @@
+githubiverse:
+    ## Metadata
+    title: "LILLABO Library"
+    author: Gary Hodgson
+    license: CC BY-SA 3.0
+    tags: [train, toys, ikea]
+
+    ## Github project parameters.
+    github:
+        base: https://github.com/
+        user: garyhodgson
+        repository: LILLABO-Parts-Library
+        branch: master
+
+    ## The names of directories where any images, source and stl files associated with the project can be found.
+    img_dir: img
+    stl_dir: stl
+    src_dir: src
+
+    ## The headline image
+    lead_image: test-jig.jpg
+    show_lead_image: true
+
+    ## Optional. When uncommented appends the content of the file defined here to the project description.  Any text in index.md, after the yaml header, will be shown first.
+    description_file: README.md
+
+    ## Preview the first STL in the list when the page loads.
+    autoload_stl: true
+
+    ## Show a github "fork me" ribbon in the top righthand corner of the page.
+    show_forkme_ribbon: true
